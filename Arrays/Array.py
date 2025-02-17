@@ -46,12 +46,3 @@ class Array:
         self.capacity = new_capacity
 
 
-# Test the fixed implementation
-arr = Array(4)
-
-arr.add(1)
-arr.add(2)
-arr.add(3)
-arr.add(4)
-arr.add(5)  # Triggers resizing
-
